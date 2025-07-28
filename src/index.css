@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./assets/img/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
